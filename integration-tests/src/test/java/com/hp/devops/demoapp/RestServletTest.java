@@ -55,6 +55,7 @@ public class RestServletTest {
 	public void testGetBands() throws Exception {
 		String result = spec.log().all().expect().statusCode(isOneOf(200)).get("/bands").asString();
 		List bandsList = from(result).get("");
+		assertEquals("We should have 5 bands", 5, 4);
 		assertEquals("We should have 5 bands", 5, bandsList.size());
 	}
 
