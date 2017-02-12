@@ -1,5 +1,6 @@
 package com.hp.devops.demoapp;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -14,6 +15,8 @@ import static org.junit.Assert.assertTrue;
  *
  * Testing playground
  */
+
+@Ignore
 public class CalcsTest {
 
 	@Test
