@@ -16,4 +16,10 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
     }
+
+    @When("^I run a test(\\d+)$")
+    public void iRunATest(int arg0) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
 }

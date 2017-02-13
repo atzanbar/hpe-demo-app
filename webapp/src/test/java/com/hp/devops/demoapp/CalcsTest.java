@@ -16,7 +16,7 @@ import static org.junit.Assert.assertTrue;
  * Testing playground
  */
 
-@Ignore
+
 public class CalcsTest {
 
 	@Test
