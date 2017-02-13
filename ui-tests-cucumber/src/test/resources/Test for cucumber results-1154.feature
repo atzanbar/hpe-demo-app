@@ -6,4 +6,4 @@ Feature:This is just for the demo
 		When I run a test        
     Scenario: Running a test 2
 		Given precondition
-		When I run a test2
+		When second test
