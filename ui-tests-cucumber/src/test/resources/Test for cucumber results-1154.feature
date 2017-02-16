@@ -3,5 +3,7 @@
 Feature:This is just for the demo
 	Scenario: Running a test
 		Given precondition
-		When I run a test        
-    
+		When I run a test
+		Given precondition
+		When I run a test
+
